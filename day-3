@@ -1,0 +1,15 @@
+----WEBSITE hosting through S3 and RDS (Relational Databse Service)----
+
+1 - I create s3 bucket from unique name 
+2 - then I upload all files and folders of that particular static website 
+3 - then I deny all the permission go to permission section 
+4 - then I go properties section then i enable static website hosting option 
+5 - then I allow http port allow from security group 
+6 - then I select all option to make public for ACL and enable ACL group 
+7 - then I hit that URL which is showing on properties section 
+8 - then my website running on browser from that particular URL
+
+after that I created RDS server 
+1 - firstly I create subnet group of database
+2 - then I create database on that of mysql-Aurora 
+3 - it is not working properly but still i am working on that
