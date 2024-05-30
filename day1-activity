@@ -1,0 +1,14 @@
+1 - I learn ec2 instaances 
+2 - then I create i server through ec2 instance (ubuntu server)
+3 - then I connect that server to ssm (session manager)
+4 - then I update my apt server (sudo apt update && upgrade)
+5 - then I install nginx server (sudo apt install nginx)
+6 - then I hit public IP on browser so my nginx website run on that platform.
+7 - then I created AMI for backup and snapshot of that ubuntu server 
+8 - then I delete that ubuntu server before using...
+9 - then I create one launch template where I used that ami image for instllation 
+10- then I create load balancer (application load balancer)
+11- then I create AutoScaling Group for making this nginx webpage to hit on browser.
+     (so i have to manage like desired server 2  min 1 max 5 and so on)
+12- then 2 server automatically create on ec2 server area
+13- then i hit that DNS of load balancer to browser then my site will open through autoscaling and load balancer 
